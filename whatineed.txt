@@ -1,0 +1,16 @@
+1. Authentication:
+   - User Registration: `/api/auth/register` (POST)
+   - User Login: `/api/auth/login` (POST)
+   - User Logout: `/api/auth/logout` (POST)
+   - Token Refresh: `/api/auth/refresh` (POST)
+   - User Profile: `/api/users/profile` (GET)
+   - Change Password: `/api/users/change-password` (PUT)
+   - Forgot Password: `/api/auth/forgot-password` (POST)
+   - Reset Password: `/api/auth/reset-password/{token}` (POST)
+
+2. Staff Management:
+   - Retrieve Staff: `/api/staff` (GET)
+   - Retrieve Staff Details: `/api/staff/{staff_id}` (GET)
+   - Add Staff: `/api/staff` (POST)
+   - Update Staff Details: `/api/staff/{staff_id}` (PUT)
+   - Delete Staff: `/api/staff/{staff_id}` (DELETE)
